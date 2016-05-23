@@ -1,0 +1,2 @@
+#!/bin/bash
+bundle exec ruby ./scripts/instant/register_user.rb
