@@ -22,7 +22,7 @@
 
 ## CREATE ADMIN ACCOUNT
 
-    # docker exec -it yabitz /bin/bash user_add
+    docker exec -it yabitz /bin/bash user_add
 
 ## ENVIRONMENT VARIABLES
 
