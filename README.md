@@ -4,20 +4,20 @@
 
 ## SYNOPSIS
 
-   # docker run \
-       -e YABITZ_INIT=1 \
-       -e YABITZ_DBHOST=mysql_host_name \
-       -e YABITZ_DBNAME=mysql_db_name \
-       -e YABITZ_DBUSER=mysql_db_user_name \
-       -e YABITZ_DBPASS=mysql_db_password \
-       -e YABITZ_USER_DBHOST=mysql_host_name_for_user_database \
-       -e YABITZ_USER_DBNAME=mysql_db_name_for_user_database \
-       -e YABITZ_USER_DBUSER=mysql_db_user_name_for_user_database \
-       -e YABITZ_USER_DBPASS=mysql_db_password_for_user_database \
-       --name yabitz \
-       -p 8080:8080 \
-       --rm \
-       -it ytnobody/yabitz
+    docker run \
+      -e YABITZ_INIT=1 \
+      -e YABITZ_DBHOST=mysql_host_name \
+      -e YABITZ_DBNAME=mysql_db_name \
+      -e YABITZ_DBUSER=mysql_db_user_name \
+      -e YABITZ_DBPASS=mysql_db_password \
+      -e YABITZ_USER_DBHOST=mysql_host_name_for_user_database \
+      -e YABITZ_USER_DBNAME=mysql_db_name_for_user_database \
+      -e YABITZ_USER_DBUSER=mysql_db_user_name_for_user_database \
+      -e YABITZ_USER_DBPASS=mysql_db_password_for_user_database \
+      --name yabitz \
+      -p 8080:8080 \
+      --rm \
+      -it ytnobody/yabitz
        
 
 ## CREATE ADMIN ACCOUNT
