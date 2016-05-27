@@ -34,13 +34,13 @@
 
 * YABITZ_DBPASS : optional - Database password
 
-* YABITZ_USER_DBHOST : required - Hostname of mysql that used as user database
+* YABITZ_MEMBER_DBHOST : required - Hostname of mysql that used as user database
 
-* YABITZ_USER_DBNAME : required - User database name
+* YABITZ_MEMBER_DBNAME : required - User database name
 
-* YABITZ_USER_DBUSER : required - User database user
+* YABITZ_MEMBER_DBUSER : required - User database user
 
-* YABITZ_USER_DBPASS : optional - User database password
+* YABITZ_MEMBER_DBPASS : optional - User database password
 
 * YABITZ_INIT : optional - Create each tables that used by yabitz when specified as true.
 
